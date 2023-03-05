@@ -19,7 +19,13 @@ include 'connect.php';
         <button class="btn btn-primary my-5"><a href="user.php" class="text-light">add user</a>
 
         </button>
+<<<<<<< HEAD
     
+=======
+        <button class="btn btn-primary my-5"><a href="index.php" class="text-light">logout</a>
+
+        </button>
+>>>>>>> 5ce3570 (second commit)
         <table class="table">
             <thead>
                 <tr>
@@ -44,7 +50,11 @@ include 'connect.php';
                         $name = $row['name'];
                         $email = $row['email'];
                         $number = $row['number'];
+<<<<<<< HEAD
                         $$plan = $row['plan'];
+=======
+                        $plan = $row['plan'];
+>>>>>>> 5ce3570 (second commit)
                         $address = $row['address'];
                         $message = $row['message'];
                         echo '<tr>
