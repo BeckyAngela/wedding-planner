@@ -50,11 +50,7 @@ include 'connect.php';
                         $name = $row['name'];
                         $email = $row['email'];
                         $number = $row['number'];
-<<<<<<< HEAD
-                        $$plan = $row['plan'];
-=======
                         $plan = $row['plan'];
->>>>>>> 5ce3570 (second commit)
                         $address = $row['address'];
                         $message = $row['message'];
                         echo '<tr>
