@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+body{
+   background: url(../images/background.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   color: #fff;
+}
+.container{
+   border-radius: .5rem;
+   overflow: hidden;
+   background: var(--transparent-white);
+   backdrop-filter: blur(.5rem);
+   max-width: 1200px;
+   margin:10rem auto;
+   box-shadow: var(--box-shadow);
+   /* margin-bottom: 15rem; */
+}
+
